@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@/layout/*": ["components/layout/*"],
-      "@/pageContent/*": ["compontents/pageContent/*"],
+      "@/pageContent/*": ["components/pageContent/*"],
       "@/contexts/*": ["compontents/context/*"]
     },
     "target": "es5",
@@ -28,7 +28,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "api/Airtable.configure"  ],
   "exclude": [
     "node_modules"
   ]

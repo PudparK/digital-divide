@@ -1,0 +1,2 @@
+
+Airtable.configure({ apiKey: process.env.airtableKey })
